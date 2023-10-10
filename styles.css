@@ -1,0 +1,74 @@
+/* Configuración global para resetear márgenes, rellenos y ajustar la caja al modelo de caja de borde */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilo para los enlaces dentro del pie de página */
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #361b61;
+    border: 4px solid black;
+    margin: 5px;
+}
+
+/* Estilos para un contenedor principal */
+.container {
+    max-width: 400px;
+    height: 100vh;
+    max-height: 700px;
+    margin: 0 auto;
+    background-color: #196423;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para el elemento con el id "resultado" */
+#resultado {
+    text-align: center;
+}
+
+/* Estilos para las imágenes dentro del elemento con el id "resultado" */
+#resultado img {
+    width: 40%;
+}
+
+/* Estilo para el texto inicial */
+#texto_inicial {
+    font-size: 36px;
+    padding: 20px;
+}
+
+/* Estilos para un grupo de botones */
+#grupo-btn {
+    display: flex;
+    width: 100%;
+}
+
+/* Estilos para las imágenes dentro del grupo de botones */
+#grupo-btn > button > img {
+    width: 100%;
+}

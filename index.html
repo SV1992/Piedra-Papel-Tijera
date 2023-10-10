@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra papel o tigera</title>
+    <!-- Enlace al archivo de estilos CSS llamado "styles.css" -->
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <!-- Contenedor principal con clase "container" -->
+    <div class="container">
+        <!-- Encabezado principal -->
+        <h1>Piedra - Papel - Tigera</h1>
+
+        <!-- Contenedor para el resultado del juego -->
+        <div id="resultado">
+            <!-- Imagen de la opción elegida por la máquina con id "maquina_imagen" -->
+            <img id="maquina_imagen" src="img/piedra.svg">
+
+            <!-- Texto inicial -->
+            <div id="texto_inicial">
+                Elige una Opción
+            </div>
+
+            <!-- Imagen de la opción elegida por el usuario con id "imagen" -->
+            <img id="imagen" src="img/piedra.svg">
+        </div>
+
+        <!-- Grupo de botones -->
+        <div id="grupo-btn">
+            <!-- Botón con id "piedra" y una imagen de piedra -->
+            <button id="piedra" type="button">
+                <img src="img/piedra.svg"/>
+            </button>
+            <!-- Botón con id "papel" y una imagen de papel -->
+            <button id="papel" type="button">
+                <img src="img/papel.svg"/>
+            </button>
+            <!-- Botón con id "tigera" y una imagen de tigera -->
+            <button id="tigera" type="button">
+                <img src="img/tigera.svg"/>
+            </button>
+        </div>
+
+        <!-- Pie de página con nombre del autor y un enlace a GitHub -->
+        <footer>Autor Sebastian Villegas Gonzalez <a target="_blank" href="https://github.com/SV1992">---- GitHub</a></footer>
+    </div>
+
+    <!-- Inclusión de scripts JavaScript -->
+    <script src="keypress.js"></script> <!-- Se asume que este script maneja la entrada de teclado -->
+    <script src="juego.js"></script> <!-- Se asume que este script contiene la lógica del juego -->
+</body>
+</html>
